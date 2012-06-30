@@ -7,7 +7,7 @@ call Pl#Hi#Allocate({
 	\ 'mediumgreen'    : 70,
 	\ 'brightgreen'    : 148,
 	\
-	\ 'darkestcyan'    : 23,
+	\ 'darkestcyan'    : 24,
 	\ 'mediumcyan'     : 117,
 	\
 	\ 'darkestblue'    : 24,
@@ -47,7 +47,7 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['darkestgreen', 'brightgreen', ['bold']],
+		\ 'n': ['mediumcyan', 'darkestcyan', ['bold']],
 		\ 'i': ['darkestcyan', 'white', ['bold']],
 		\ 'v': ['darkred', 'brightorange', ['bold']],
 		\ 'r': ['white', 'brightred', ['bold']],
@@ -55,18 +55,18 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
-		\ 'n': ['gray9', 'gray4'],
+		\ 'n': ['gray9', 'gray2'],
 		\ 'N': ['gray4', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkblue'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['white', 'gray4', ['bold']],
+		\ 'n': ['white', 'gray1', ['bold']],
 		\ 'N': ['gray7', 'gray0', ['bold']],
 		\ 'i': ['white', 'darkblue', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['fileinfo.filepath'], {
+	\ Pl#Hi#Segments(['fileinfo.filepath', 'status'], {
 		\ 'n': ['gray10'],
 		\ 'N': ['gray5'],
 		\ 'i': ['mediumcyan'],
@@ -84,7 +84,7 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['brightestred', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['currenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
+	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['gray8', 'gray2'],
 		\ 'i': ['mediumcyan', 'darkestblue'],
 		\ }),
@@ -126,8 +126,8 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['white', 'mediumgreen', ['bold']],
-		\ 'N': ['mediumgreen', 'darkestgreen', ['bold']],
+		\ 'n': ['white', 'gray3', ['bold']],
+		\ 'N': ['gray1', 'gray2', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
@@ -136,8 +136,8 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['white', 'darkgreen'],
-		\ 'N': ['white', 'darkestgreen'],
+		\ 'n': ['white', 'gray2'],
+		\ 'N': ['white', 'gray1'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {

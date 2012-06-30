@@ -20,7 +20,7 @@ let g:Pl#Parser#Symbols = {
 	\ 'fancy': {
 		\   'dividers': [ [0x2b80], [0x2b81], [0x2b82], [0x2b83] ]
 		\ , 'symbols' : {
-			\   'BRANCH': [0x2b60]
+			\   'BRANCH': [0x26a1]
 			\ , 'RO'    : [0x2b64]
 			\ , 'FT'    : [0x2b62, 0x2b63]
 			\ , 'LINE'  : [0x2b61]
